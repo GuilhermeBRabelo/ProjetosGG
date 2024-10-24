@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <h2>HTML - Forms</h2>
+
+    <form>
+        <!--Input do tipo "TEXT" uso obrigatorio name e id-->
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" placeholder="nome"><br>
+
+        <br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="password" name="lname" id="lname"><br>
+
+        <br>
+        
+        <!--Input do tipo "RAIO" uso obrigatorio name e value-->
+        <input type="radio" id="html" name="fav_Language" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="CSS" name="fav_Language" value="CSS">
+        <label for="CSS">CSS</label><br>
+
+        <input type="radio" id="javaScript" name="fav_Language" value="JavaScript" checked>
+        <label for="javaScript">JavaScript</label>
+
+        <br><br>
+
+        <!--Input do tipo "CheckBox" uso obrigatorio name e id-->
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+        <label for="vehicle1">I have a bike</label><br>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+        <label for="vehicle2">I have a car</label><br>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="boat">
+        <label for="vehicle3">I have a boat</label>
+
+        <br><br>
+
+        <!-- Input's pós HTML5 -->
+
+        <input type="color" value="#ff3440">
+
+        <br><br>
+
+        <label for="data">Data</label>
+        <input type="date" id="data"><br>
+        
+        <br><br>
+
+        <label for="file">Arquivos:</label><br>
+        <input type="file" name="arquivo" id="file"><br>
+
+        <br><br>
+
+        <label for="numeros">números:</label><br>
+        <input type="number" id="number"><br>
+
+        <br><br>
+
+        <label for="numeros">Tamanho máximo:</label><br>
+        <input type="range" max="10"><br>
+
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email">
+
+        <br><br>
+
+        <input type="reset" value="apagar tudo">
+        <button type="button">processar</button>
+        
+
+    </form>
+    
+
+</body>
+</html>
