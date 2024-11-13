@@ -1,0 +1,32 @@
+body {
+    background-color: #FFCC66;
+    background-image: url("../img/giphy.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom ;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #990000;
+    background-color: #FC9804;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#p1 {
+    font-variant: small-caps;
+    text-decoration:underline;
+}
+
+#p3 {
+    font: italic small-caps 15pt 'Caimbra', serif;
+}
+
+.testeClasse {
+    color: #990000;
+    text-align: center;
+}
