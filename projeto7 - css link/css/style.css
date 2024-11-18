@@ -1,0 +1,27 @@
+.gen {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(117, 157, 216);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.gen.par{
+    font-style: italic;
+    background-color: blue;
+}
+
+.gen.impar {
+    background-color: black;
+}
+
+.menu a:hover {
+    background-color: black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#pesquisar:hover {
+    background-color: grey;
+}
