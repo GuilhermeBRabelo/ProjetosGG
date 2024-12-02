@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pagina {
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color:blueviolet ;
+    width: 100%;
+    height: 50px;
+}
+
+nav {
+    background-color:rgb(69, 4, 131) ;
+    width: 100%;
+    height: 30px;
+}
+
+.div-box {
+    width: 23;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+
+#box-1 {
+    width: 25%;
+    background-color: aqua;
+}
+
+#box-2 {
+    width: 50%;
+    background-color: aqua;
+}
+
+#box-3 {
+    width: 25%;
+    background-color: aqua;
+}
+
+footer {
+    background-color: rgb(5, 57, 57);
+    width: 100;
+    height: 50px;
+}
