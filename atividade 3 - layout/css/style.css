@@ -48,9 +48,10 @@ main {
 
 .box2 {
     width: 33%;
+    background-color: aqua;
 }
 
-.box2 iframe{
+.box2 video {
     width: 100%;
     height: 100%;
 }
