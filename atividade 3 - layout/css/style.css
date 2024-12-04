@@ -60,13 +60,18 @@ main {
 }
 
 .img-box {
+    height: 50%;
     border-top: 2px solid;
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    margin: 0 10px;   
 }
+
+/* form {
+    height: 50%;
+} */
 
 footer {
     border: 2px solid;
