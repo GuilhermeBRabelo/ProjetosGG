@@ -1,0 +1,71 @@
+* {
+    font-family: 'JetBrains Mono';
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.nav {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav button {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    /* cursor: pointer; */
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(75, 5, 161);
+}
+
+.nav li {
+    display: inline;
+}
+
+main {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+#content1 {
+    background-color: grey;
+    max-width: 100%;
+}
+
+#content2 {
+    /* background-color: rgb(46, 1, 1); */
+    max-width: 100%;
+}
+
+#content3 {
+    /* background-color: rgb(151, 2, 2); */
+    max-width: 100%;
+}
+
+#content1 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #171625;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+footer span {
+    font-weight: bold;
+}
