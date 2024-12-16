@@ -178,7 +178,7 @@ footer span {
     font-weight: bold;
 }
 
-@media (min-width: 450px) and (max-width: 720px){
+@media (min-width: 400px) and (max-width: 720px){
     #sobre{
         display: flex;
         flex-direction: column;
