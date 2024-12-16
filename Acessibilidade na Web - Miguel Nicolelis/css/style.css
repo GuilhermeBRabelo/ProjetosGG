@@ -155,3 +155,15 @@ footer {
 footer span {
     font-weight: bold;
 }
+
+@media (min-width: 450px) and (max-width: 720px){
+    #sobre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projeto {
+        display: flex;
+        flex-direction: column;
+    }
+}
