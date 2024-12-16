@@ -1,0 +1,157 @@
+:root {
+    --bg-color: rgba(255, 255, 255);
+    --shadow-color: rgba(179, 179, 179, 0.200);
+    --text-paragraph: rgba(90, 90, 90);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-inline: 14px;
+    position: relative;
+    background-color: var(--bg-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: var(--shadow-color);
+    padding: 6px 8px;
+    border-radius: 6px;
+    transition: 200ms;
+}
+
+nav li {
+    display: inline-block;
+    margin: 12px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    padding: 4px;
+    color: var(--text-paragraph);
+}
+
+#banner-img {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+#banner-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.container {
+    padding-bottom: 12px;
+}
+
+.container h2 {
+    font-size: 34px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.container p {
+    color: var(--text-paragraph);
+}
+
+#sobre {
+    display: flex;
+}
+
+#sobre-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+}
+
+#sobre-img img{
+    min-width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#sobre-text {
+    padding: 20px;
+}
+
+#projeto {
+    display: flex;
+}
+
+#projeto-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 528px;
+}
+
+#projeto-img img {
+    min-width: 100%;
+    height: 528px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#projeto-text {
+    padding: 20px;
+}
+
+#lermais-img {
+    height: 400px;
+    width: 100%;
+}
+
+#lermais-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+#lermais-text {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-inline: 14px;
+    font-size: 18px;
+}
+
+footer span {
+    font-weight: bold;
+}
