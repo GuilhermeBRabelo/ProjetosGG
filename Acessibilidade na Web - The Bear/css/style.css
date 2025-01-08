@@ -1,0 +1,53 @@
+:root {
+    --bg-color: #f2f2f2;
+    --footer-color: #000000;
+    --card-color: #ffffff;
+    --text-color: #a6a6a6;
+    --link-color: #777777;
+}
+
+body {
+    font-family: 'Poppins', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: var(--footer-color);
+    color: var(--text-color);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 160px;
+}
+
+footer p {
+    padding-top: 18px;
+}
+
+#search-icons li{
+    display: inline;
+    padding: 6px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+footer a:hover {
+    color: var(--bg-color);
+    transition: 50ms;
+}
