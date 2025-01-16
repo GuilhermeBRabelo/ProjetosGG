@@ -1,17 +1,53 @@
-:root {
-    --bg-color: #f2f2f2;
-    --footer-color: #000000;
-    --card-color: #ffffff;
-    --text-color: #a6a6a6;
-    --link-color: #777777;
-}
-
 body {
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
+    background-color: grey;
+}
+
+header {
+    height: 100px;
+    background: linear-gradient(to right, #251D1B, #441717);
+}
+
+header h1 {
+    padding: 30px; 
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
 
+
+
+
+
+
+
+main {
+    background-color: white;
+    height: 800px; 
+    width: 100%;
+}
+
+form {
+    border: 2px solid red;
+}
+
+form h2 {
+    font-size: 67px;
+    font-weight: 300;
+}
+
+/*
+.input_style{
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.button_style{
+    border-radius: 8px;
+} */
 
 
 
@@ -23,31 +59,18 @@ body {
 
 
 footer {
-    background-color: var(--footer-color);
-    color: var(--text-color);
+    height: 35px;
     text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 160px;
+    padding: 50px;
+    background-color: #251D1B;
+    font-weight: lighter;
+    color: white;
 }
 
-footer p {
-    padding-top: 18px;
+footer hr {
+    width: 70%;
 }
 
-#search-icons li{
-    display: inline;
-    padding: 6px;
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--link-color);
-}
-
-footer a:hover {
-    color: var(--bg-color);
-    transition: 50ms;
+footer span {
+    font-weight: 300;
 }
