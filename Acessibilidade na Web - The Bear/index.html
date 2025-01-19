@@ -17,14 +17,45 @@
 
     <main>
        <section id="section-novas">
-            <h2 class="title-section">novas reservas</h2>
+            <form action="#">
+                <h2 class="title-section">novas reservas</h2>
+
+                <label for="dia">Dia da Reserva:</label>
+                <input type="date">
+
+                <label for="hora">Horário:</label>
+                <input type="time"><br>
+
+                <label for="">Pessoas:</label>
+                <input type="number">
+            </form>
+
+            <div id="container-textarea">
+                <label for="">Precisa de algo especial?</label><br>
+                <textarea placeholder="Ex.: Aniversário, ocasiões especiais, etc."></textarea>
+            </div>
+
+            <button type="button" class="bttn-section">Enviar</button>
        </section>
 
        <section id="section-mesas">
             <h2 class="title-section">mesas e reservas</h2>
 
-            <button type="button" class="bttn-section">Confimar</button>
+            <div id="container-mesas">
+                <div id="mesasCircle" class="circle" onclick="disponibilidadeMesas()"></div>
+                <div id="mesasCircle" class="circle"></div>
+                <div id="mesasCircle" class="circle"></div>
 
+                <div id="mesasCircle" class="circle"></div>
+                <div id="mesasCircle" class="circle"></div>
+                <div id="mesasCircle" class="circle"></div>
+
+                <div id="mesasCircle" class="circle"></div>
+                <div id="mesasCircle" class="circle"></div>
+                <div id="mesasCircle" class="circle"></div>
+            </div>
+
+            <button type="button" class="bttn-section">Confimar</button>
        </section>
     </main>
 
