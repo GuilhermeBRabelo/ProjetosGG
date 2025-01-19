@@ -1,0 +1,86 @@
+body {
+    font-family: "Poppins", serif;
+    background-color: grey;
+}
+
+header {
+    height: 100px;
+    background: linear-gradient(to right, #251D1B, #441717);
+}
+
+header h1 {
+    padding: 30px; 
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+
+main {
+    /* guarda as duas sections */
+    display: flex;
+    justify-content: space-around;
+    margin: 14px;
+}
+
+.title-section {
+    /* define titulos da pagina */
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    padding: 14px;
+}
+
+section {
+    /* define as sections */
+    height: 700px;
+    /* margin: 18px; */
+    /* padding: 20px; */
+    border-radius: 14px;
+    background-color: white;
+}
+
+#section-novas {
+    width: 28%;
+}
+
+#section-mesas {
+    width: 50%;
+}
+
+.bttn-section {
+    /* define botoes da pagina */
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #771F1F;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #FA7436;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    height: 35px;
+    text-align: center;
+    padding: 50px;
+    background-color: #251D1B;
+    font-weight: lighter;
+    color: white;
+}
+
+footer hr {
+    width: 70%;
+}
+
+footer span {
+    font-weight: 300;
+}
