@@ -16,7 +16,7 @@
     </header>
 
     <main>
-       <section id="section-novas">
+       <section id="section-cadastro">
             <form action="#">
                 <h2 class="title-section">novas reservas</h2>
 
@@ -42,17 +42,17 @@
             <h2 class="title-section">mesas e reservas</h2>
 
             <div id="container-mesas">
-                <div id="mesasCircle" class="circle" onclick="disponibilidadeMesas()"></div>
-                <div id="mesasCircle" class="circle"></div>
-                <div id="mesasCircle" class="circle"></div>
-
-                <div id="mesasCircle" class="circle"></div>
-                <div id="mesasCircle" class="circle"></div>
-                <div id="mesasCircle" class="circle"></div>
-
-                <div id="mesasCircle" class="circle"></div>
-                <div id="mesasCircle" class="circle"></div>
-                <div id="mesasCircle" class="circle"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
+                <div class="circle" onclick="alternarMesa(this)" data-status="ocupado"></div>
             </div>
 
             <button type="button" class="bttn-section">Confimar</button>
@@ -65,6 +65,5 @@
     </footer> 
 
     <script src="js/script.js"></script>
-
 </body>
 </html>

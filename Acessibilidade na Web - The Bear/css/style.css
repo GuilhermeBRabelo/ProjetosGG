@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
     background-color: grey;
 }
 
@@ -16,15 +16,14 @@ header h1 {
     text-transform: uppercase;
 }
 
+/* -------------------------------------------------------- */
+
 main {
     /* guarda as duas sections */
     display: flex;
     justify-content: space-around;
     margin: 14px;
 }
-
-
-/* ------------------------------------------------------------------------------- */
 
 section {
     /* define as sections */
@@ -58,9 +57,23 @@ section {
     cursor: pointer;
 }
 
-#section-novas {
-    width: 28%;
+.bttn-section:hover {
+    transform: scale(1.1);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efeito de hover */
 }
+
+.circle {
+    /* define circulos da pagina */
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #771F1F;
+    cursor: pointer;
+}
+
+    /* ------------------------------------------------------------ */
 
 #container-textarea textarea {
     width: 100%;
@@ -70,12 +83,15 @@ section {
 }
 
 form, #container-textarea {
+    /* Espaçamento entre os inputs */
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espaçamento entre os inputs */
+    gap: 10px;
 }
 
-/* -------------------------------MESAS E ORGANIZAÇÃO------------------------------------------------ */
+#section-cadastro {
+    width: 35%;
+}
 
 #section-mesas {
     width: 50%;
@@ -92,29 +108,35 @@ form, #container-textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-  }
+}
+
+/* ------------------------------------------------------------ */
 
 .circle {
-    /* define circulos da pagina */
     margin: 10px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #771F1F;
+    background-color: #771F1F; /* Cor padrão para ocupado */
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.circle.disponivel {
+    background-color: green; /* Cor para disponível */
+}
+
+.circle.ocupado {
+    background-color: #e57906; /* Cor para ocupado */
 }
 
 .circle:hover {
-    /* margin: 10px; */
-    padding: px;
-    /* margin: 1px; */
-    background-color: #530505;
-    transition: 300ms;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efeito de hover */
 }
 
 
-/* ------------------------------------------------------------------------------- */
-
+/* ------------------------------------------------------------ */
 
 
 footer {
