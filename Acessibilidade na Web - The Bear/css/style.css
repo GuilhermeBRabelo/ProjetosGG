@@ -16,7 +16,7 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* -------------------------------------------------------- */
+
 
 main {
     /* guarda as duas sections */
@@ -73,13 +73,18 @@ section {
     cursor: pointer;
 }
 
-    /* ------------------------------------------------------------ */
+
 
 #container-textarea textarea {
     width: 100%;
     height: 100px;
     border: 1px solid black;
     border-radius: 8px;
+}
+
+#textarea-input{
+    /* Espaçamento entre os inputs */
+    margin-top: 50px;
 }
 
 form, #container-textarea {
@@ -110,7 +115,7 @@ form, #container-textarea {
     justify-content: center;
 }
 
-/* ------------------------------------------------------------ */
+
 
 .circle {
     margin: 10px;
@@ -136,7 +141,6 @@ form, #container-textarea {
 }
 
 
-/* ------------------------------------------------------------ */
 
 
 footer {
